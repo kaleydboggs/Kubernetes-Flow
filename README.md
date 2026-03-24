@@ -6,33 +6,33 @@ Kubernetes-Flow/
 │
 ├── app/                        # Your OCR service code
 
-│   ├── app.py
+  │   ├── app.py
 
-│   ├── requirements.txt
+  │   ├── requirements.txt
 
-│   └── Dockerfile
-│
+  │   └── Dockerfile
+  │
 
 ├── k8s/                        # Kubernetes manifests
 
-│   ├── deployment.yaml
+  │   ├── deployment.yaml
 
-│   ├── service.yaml
+  │   ├── service.yaml
 
-│   └── job.yaml                 # optional batch OCR job
+  │   └── job.yaml                 # optional batch OCR job
 
-│
+  │
 
 ├── scripts/                     # helper scripts
 
-│   ├── build.sh
+  │   ├── build.sh
 
-│   └── deploy.sh
+  │   └── deploy.sh
 
-│
+  │
 
 ├── tests/                       # test OCR functionality
-│   └── test_app.py
-│
-├── .gitignore
-└── README.md
+  │   └── test_app.py
+  │
+  ├── .gitignore
+  └── README.md
